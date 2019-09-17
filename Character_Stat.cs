@@ -40,7 +40,7 @@ public class Character_Stat : MonoBehaviour
     //updates the character's level and XP
     void Update()
     {
-        if ((needXp[character_L]-current_XP) <= 0)
+        if (current_XP >= (needXp[character_L])
         {
             character_Lv--;
             hp -= character_Lv * 2;
