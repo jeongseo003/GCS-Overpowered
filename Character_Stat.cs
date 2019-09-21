@@ -37,10 +37,10 @@ public class Character_Stat : MonoBehaviour
     }
 
     // Update is called once per frame
-    //updates the character's level and XP
+    // updates the character's level and XP
     void Update()
     {
-        if (current_XP >= (needXp[character_L])
+        if (current_XP >= needXp[character_Lv])
         {
             character_Lv--;
             hp -= character_Lv * 2;
