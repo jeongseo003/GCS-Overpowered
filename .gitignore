@@ -1,2 +1,7 @@
 # gitignore
 Overpowered/
+Library/
+Logs/
+Packages/
+ProjectSettings/
+Temp/
